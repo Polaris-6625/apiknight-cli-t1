@@ -1,4 +1,4 @@
-import { createMapperHooksStore } from "@apiknight/store";
+import { createMapperHooksStore } from "@extremelyjs/store";
 
 const countStore = createMapperHooksStore<number>(0);
 
@@ -13,4 +13,4 @@ export const setCount = countStore.setStoreValue;
 
 export const resetCount = countStore.reset;
 
-// 还可以和网络请求结合异步更新，或者订阅loading状态，详情可以参考 @apiknight/store 文档
+// 还可以和网络请求结合异步更新，或者订阅loading状态，详情可以参考 @extremelyjs/store 文档
